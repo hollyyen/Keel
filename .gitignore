@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build / output
+dist/
+build/
+.output/
+.vercel/
+.tanstack/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs & cache
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+.cache/
+.turbo/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Test / coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Generated / local
+*.local
+.routeTree.gen.ts.bak
+artifacts/
+screenshots/*.png
+screenshots/*.json
+!screenshots/.gitkeep
+
+# Lock / status from builder
+.node_modules.lock
+.grok/
+
+# Misc
+*.tsbuildinfo
